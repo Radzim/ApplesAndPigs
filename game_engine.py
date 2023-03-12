@@ -9,3 +9,4 @@ def make_move(row):
     t = [t[i]+1 for i in range(len(e)) if e[i] == target]
     return choice(s, 1, p=[tt/sum(t) for tt in t])[0]
 
+
